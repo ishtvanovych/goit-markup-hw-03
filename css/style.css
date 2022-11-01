@@ -13,9 +13,10 @@ body{
       color: #212121;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0px;
 }
 
 img{
@@ -204,6 +205,7 @@ img{
 .features-list{
     display: flex;
     margin: 0px;
+    
 }
 
 .features-title{
@@ -234,7 +236,7 @@ img{
     /* works */ 
 
 .works{
-    padding: 94px 0 
+    padding-bottom: 94px 0;
 }
 
 .title{
